@@ -1,16 +1,9 @@
-# .github/workflows/docker-build-only.yml
-
-name: Build Docker Image Only
+name: Build Docker Image
 
 on:
   push:
     branches:
       - main
-    # You can add other triggers as needed
-    # For example, on pull requests:
-    # pull_request:
-    #   branches:
-    #     - main
 
 jobs:
   build:
